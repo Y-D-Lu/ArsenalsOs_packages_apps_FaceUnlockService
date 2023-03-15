@@ -25,13 +25,13 @@ public class FaceUnlockUtils {
     }
 
     public static Intent getServiceIntent() {
-        Intent intent = new Intent("org.pixelexperience.faceunlock.BIND");
+        Intent intent = new Intent("cn.arsenals.os.faceunlock.BIND");
         intent.setComponent(ComponentName.unflattenFromString(
-                "org.pixelexperience.faceunlock/org.pixelexperience.faceunlock.service.FaceAuthService"));
+                "cn.arsenals.os.faceunlock/cn.arsenals.os.faceunlock.service.FaceAuthService"));
         return intent;
     }
 
     public static String getServicePackageName() {
-        return "org.pixelexperience.faceunlock";
+        return "cn.arsenals.os.faceunlock";
     }
 }

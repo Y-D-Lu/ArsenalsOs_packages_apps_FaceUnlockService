@@ -24,22 +24,22 @@ android_app {
         "faceunlock_vendor_framework",
     ],
     required: [
-        "privapp-permissions-org.pixelexperience.faceunlock",
-        "hiddenapi-whitelist-org.pixelexperience.faceunlock",
+        "privapp-permissions-cn.arsenals.os.faceunlock",
+        "hiddenapi-whitelist-cn.arsenals.os.faceunlock",
         "faceunlock_vendor_dependencies",
     ],
 }
 
 prebuilt_etc {
-    name: "privapp-permissions-org.pixelexperience.faceunlock",
-    src: "privapp-permissions-org.pixelexperience.faceunlock.xml",
+    name: "privapp-permissions-cn.arsenals.os.faceunlock",
+    src: "privapp-permissions-cn.arsenals.os.faceunlock.xml",
     sub_dir: "permissions",
     filename_from_src: true,
 }
 
 prebuilt_etc {
-    name: "hiddenapi-whitelist-org.pixelexperience.faceunlock",
-    src: "hiddenapi-whitelist-org.pixelexperience.faceunlock.xml",
+    name: "hiddenapi-whitelist-cn.arsenals.os.faceunlock",
+    src: "hiddenapi-whitelist-cn.arsenals.os.faceunlock.xml",
     sub_dir: "sysconfig",
     filename_from_src: true,
 }
